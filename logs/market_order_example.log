@@ -1,0 +1,7 @@
+2025-04-21 10:15:01 | INFO     | trading_bot | Logger initialised — writing to logs/trading_bot_20250421_101501.log
+2025-04-21 10:15:01 | INFO     | trading_bot | Command: place | Args: {'command': 'place', 'api_key': '***', 'api_secret': '***', 'log_level': 'INFO', 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'qty': '0.001', 'price': None, 'stop_price': None}
+2025-04-21 10:15:01 | INFO     | trading_bot.client | BinanceClient initialised (base_url=https://testnet.binancefuture.com)
+2025-04-21 10:15:01 | INFO     | trading_bot.orders | Placing order: symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2025-04-21 10:15:01 | INFO     | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1745226901123, 'recvWindow': 5000}
+2025-04-21 10:15:01 | INFO     | trading_bot.client | RESPONSE status=200 body={"orderId":4661093,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"myOrder123","price":"0","avgPrice":"93450.10","origQty":"0.001","executedQty":"0.001","cumQuote":"93.45010","timeInForce":"GTC","type":"MARKET","side":"BUY","updateTime":1745226901456}
+2025-04-21 10:15:01 | INFO     | trading_bot.orders | Order placed successfully: orderId=4661093 status=FILLED

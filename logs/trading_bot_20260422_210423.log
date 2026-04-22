@@ -1,0 +1,2 @@
+2026-04-22 21:04:23 | INFO     | trading_bot | Logger initialised — writing to C:\Users\SUDIPTA\Downloads\trading_bot\trading_bot\logs\trading_bot_20260422_210423.log
+2026-04-22 21:04:23 | INFO     | trading_bot | Command: place | Args: {'api_key': '', 'api_secret': '', 'log_level': 'INFO', 'command': 'place', 'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'qty': '0.001', 'price': None, 'stop_price': None}

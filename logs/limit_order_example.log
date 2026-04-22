@@ -1,0 +1,7 @@
+2025-04-21 10:22:44 | INFO     | trading_bot | Logger initialised — writing to logs/trading_bot_20250421_102244.log
+2025-04-21 10:22:44 | INFO     | trading_bot | Command: place | Args: {'command': 'place', 'api_key': '***', 'api_secret': '***', 'log_level': 'INFO', 'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'qty': '0.001', 'price': '100000', 'stop_price': None}
+2025-04-21 10:22:44 | INFO     | trading_bot.client | BinanceClient initialised (base_url=https://testnet.binancefuture.com)
+2025-04-21 10:22:44 | INFO     | trading_bot.orders | Placing order: symbol=BTCUSDT side=SELL type=LIMIT qty=0.001 price=100000 stop=None
+2025-04-21 10:22:44 | INFO     | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '100000', 'timeInForce': 'GTC', 'timestamp': 1745227364789, 'recvWindow': 5000}
+2025-04-21 10:22:44 | INFO     | trading_bot.client | RESPONSE status=200 body={"orderId":4661204,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"myLimitOrder456","price":"100000","avgPrice":"0","origQty":"0.001","executedQty":"0","cumQuote":"0","timeInForce":"GTC","type":"LIMIT","side":"SELL","updateTime":1745227364901}
+2025-04-21 10:22:44 | INFO     | trading_bot.orders | Order placed successfully: orderId=4661204 status=NEW
